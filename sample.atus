@@ -1,10 +1,17 @@
 # This is a comment
 
+void test() {
+    show "testing"
+    
+}
+
 start
 
 number = 0
 
 enter number
+
+test()
 
 while true {
     show "Hello" "\t" number
@@ -13,3 +20,6 @@ while true {
     }
     number = number + 1
 }
+
+# Currently the language is in development stage
+
