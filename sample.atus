@@ -1,0 +1,15 @@
+# This is a comment
+
+start
+
+number = 0
+
+enter number
+
+while true {
+    show "Hello" "\t" number
+    if number==10 {
+        break
+    }
+    number = number + 1
+}
